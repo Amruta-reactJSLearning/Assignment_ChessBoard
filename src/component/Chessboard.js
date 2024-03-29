@@ -24,7 +24,7 @@ const Chessboard=()=>{
             result.push(row);
         }
          // Set chess board's value to the
-        // created 2d result array
+        // created 2d  array
         setChessBoard(result);
     }, [row,col]);
          
